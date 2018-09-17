@@ -1,0 +1,110 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.board {
+  display: flex;
+  float: left;
+}
+
+.controls {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.controls button {
+  width: 200px;
+  margin: 5px;
+}
+
+.alert {
+  margin: 5px;
+}
+
+.input-range {
+  margin-bottom: 20px;
+}
+
+.cellRevealed {
+  background: #cecece;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.controlsItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.cellBomb {
+  background-image: url("./bomb.jpg");
+  background-size: contain;
+  position: absolute;
+}
+
+.cellNotRevealed {
+    position: absolute;
+    background-image: url("./unopened_square.png");
+    background-size: contain;
+}
+
+.cellFlagged {
+  background-image: url("flagged_square.jpg");
+  background-size: contain;
+  position: absolute;
+}
+
+.square1 {
+  color: blue;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square2 {
+  color: green;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square3 {
+  color: red;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square4 {
+  color: darkblue;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square5 {
+  color: darkred;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square6 {
+  color: teal;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square7 {
+  color: magenta;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.square8 {
+  color: darkslategrey;
+  margin-bottom: 5px;
+  font-family: 'Arial Bold', sans-serif;
+}
